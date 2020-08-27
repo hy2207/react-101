@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { App } from './App';
-import './index.css';
+import { WineApp } from './components/WineApp';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <WineApp />, document.getElementById('root')
+);
